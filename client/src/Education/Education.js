@@ -38,7 +38,7 @@ class Photography extends Component {
                     directly related to my impact statement, and will likely benefit me in terms of
                     credibility and exposure in the future.
                 </h3>
-                <a href='' download> Download Examples </a>
+                <a href='./download1.pdf' target='_blank' > Download Examples </a>
                 <hr width="1" size="125" color='#fff' style={{borderLeft: 'dashed 2pt black', marginTop:'20pt' }}/>
                 <h1>MGT 4860 – Managing Organizational Conflict</h1>
                 <h3>
