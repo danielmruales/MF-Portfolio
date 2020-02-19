@@ -1,0 +1,44 @@
+.mainNav{
+    display: flex;
+}
+
+.navItemsContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.navItems {
+    text-decoration: none;
+    color: black;
+    font-size: 18pt;
+    margin-top: 22pt;
+    justify-content: right;
+    padding-right: 55px;
+}
+
+.logo {
+    height: 75px;
+    padding-left: 55px;
+    padding-top: 5px;
+}
+
+@media (max-width: 420px) {
+    .navItems {
+        font-size: 13pt;
+        margin-top: 18pt;
+    }
+    .logo {
+        height: 60px;
+    }
+}
+
+@media (max-width: 321px) {
+    .navItems {
+        font-size: 11pt;
+        margin-top: 12pt
+    }
+    .logo {
+        height: 40px;
+    }
+
+}

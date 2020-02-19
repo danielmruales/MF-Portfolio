@@ -1,0 +1,40 @@
+.educationHero{
+    background-image: url('./educationHeroPic.jpg');
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+}
+
+.educationHero> p {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    /* color: palevioletred; */
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 45px;
+}
+
+
+h3 {
+    text-align: center;
+    /* color: palevioletred; */
+    padding: 45px;
+    font-size: 25px;
+    line-height: 60px;
+    font-weight: 100;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}

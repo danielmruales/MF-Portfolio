@@ -1,0 +1,33 @@
+.mainAbout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.mainAbout > img {
+    width: 835px;
+    height: 900px;
+    
+}
+
+.secondAbout {
+    background-color: #E6ECEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 420px) {
+    .mainAbout {
+        display: flex;
+        flex-direction: column;
+    }
+    .mainAbout > img {
+        width: 355px;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        border: 2px black solid;
+        border-radius: 60px;
+    }
+}

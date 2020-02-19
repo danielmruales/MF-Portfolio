@@ -1,0 +1,109 @@
+.serviceTest {
+   background-image: url('./heroImage.jpg');
+   background-position: center;
+   background-size: cover;
+   height: 650px;
+}
+
+.serviceTest > p {
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 650px;
+    font-size: 35px;
+}
+
+.serviceTitle {
+    text-align: center;
+    margin-top: 40pt;
+    margin-bottom: 70pt;
+}
+
+.marketing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+/* Works on Chrome Dev Tools but not here */
+.marketingPic {
+    height: 700px;
+    width: 525px;
+    margin: auto;
+}
+
+.imgTitle {
+    background-color: rgba(0, 0, 0, 0.32);
+    color: white;
+    text-align: center;
+    font-size: 24pt;
+    width: 180px;
+    height: 40px;
+}
+
+.marketingTitle {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.photo {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    margin-bottom: 40pt
+}
+
+.photoPic {
+    height: 700px;
+    margin: auto;
+}
+
+.photoTitle {
+    text-align: center;
+}
+
+.picsBtn {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: pink;
+}
+
+ 
+
+.business {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 40pt;
+    padding: 20px;
+}
+
+.businessPic {
+    height: 700px;
+    margin: auto;
+}
+
+.businessTitle {
+    text-align: center;
+}
+
+
+.secondPics {
+    width: 813px;
+    border-radius: 5px;
+    cursor: pointer;    
+}
+
+@media (max-width: 420px) {
+  .serviceTest {
+      display: flex;
+      flex-direction: column;
+  }
+}
