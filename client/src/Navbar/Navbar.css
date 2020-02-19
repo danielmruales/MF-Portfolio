@@ -16,6 +16,10 @@
     padding-right: 55px;
 }
 
+.navItems:hover {
+    text-decoration: underline gray;
+}
+
 .logo {
     height: 75px;
     padding-left: 55px;

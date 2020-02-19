@@ -10,7 +10,7 @@ class Services extends Component {
    
    
     render() {
-        var heroQuote = `"Innovating huaman connection through
+        const heroQuote = `"Innovating huaman connection through
         organizational diversity and inlcusion"`
 
         return (
