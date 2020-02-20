@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import Navbar from '../Navbar/Navbar.js'
+import Report from './report.pdf'
+import Presentation from './presentation.pdf'
+import OneSheet from './download1.pdf'
+
 import './Education.css'
 
 class Photography extends Component {
@@ -8,7 +12,8 @@ class Photography extends Component {
             <div>
                 <Navbar/>
                 <div className='educationHero'> <p>Education </p> </div>
-                <h1> EAS 1600 – Teaching and Learning Across Languages and Cultures</h1>
+                <h1>Awesome Amazing quote to inspire the world</h1>
+                <h3 className='className'> EAS 1600 – Teaching and Learning Across Languages and Cultures</h3>
                 <h3> 
                     This course served as one of my biggest exposure to other cultures, people, races, nationalities, and lived experiences. 
                     This class purposely diversified its students, so there was representation from 10+ countries and a predominance of international students. 
@@ -21,8 +26,8 @@ class Photography extends Component {
                     And, I learned to avoid applying my own world-view to everyone I interact with, 
                     and instead value diversity in order to better understand the world and be successful in it.
                 </h3>
-                <hr width="1" size="125" color='#fff' style={{borderLeft: 'dashed 2pt black', marginTop:'20pt' }}/>
-                <h1>MGT 5810 – Managing Diversity in Organizations</h1>
+                <hr width="1" size="125" color='#fff' style={{borderLeft: 'dashed 2pt black', marginTop:'5px', marginBottom: '65px' }}/>
+                <h3 className='className'>MGT 5810 – Managing Diversity in Organizations</h3>
                 <h3>
                     This course taught the history of diversity and inclusion as it relates to organizations and their progression over time. 
                     It also addressed the laws and policies that are in place to protect against 
@@ -36,11 +41,14 @@ class Photography extends Component {
                     formal training and an understanding of how this idea is being executed currently
                     and where I might be able to improve upon it. This also is the course most 
                     directly related to my impact statement, and will likely benefit me in terms of
-                    credibility and exposure in the future.
+                    credibility and exposure in the future.          
+                    <br/>
+                    Download the diversity management <a download='Diversity Management Final Report' href={Report}>report</a>, 
+                    <a download='Diversity Management Presentation' href={Presentation}> presentation</a>, 
+                    and <a download='Diversity Management One Sheet' href={OneSheet}>one sheet</a> here.
                 </h3>
-                <a href='./download1.pdf' target='_blank' > Download Examples </a>
-                <hr width="1" size="125" color='#fff' style={{borderLeft: 'dashed 2pt black', marginTop:'20pt' }}/>
-                <h1>MGT 4860 – Managing Organizational Conflict</h1>
+                <hr width="1" size="125" color='#fff' style={{borderLeft: 'dashed 2pt black', marginTop:'5px', marginBottom: '65px' }}/>
+                <h3 className='className'>MGT 4860 – Managing Organizational Conflict</h3>
                 <h3>
                 This course served as an education in managing organizational conflict as well as a workshop for developing mediation and conflict management skills both personally and professionally. As diversity and inclusion work is notoriously difficult and controversial to introduce into organizations, having an understanding of conflict and the skill set to manage it is vital. This course also discussed diversity and its relationship to conflict, including the differences in varying cultures’ conflict styles, dynamics of male vs females in conflict, and creating psychological safety in organizations. For my final paper in this course, I explained the relationship between women in leadership and psychological safety in organizations. This allowed me to explore the existing climate of gender diversity in organizations as it relates to conflict, and gain a better understanding of how to improve it and facilitate greater human connection. This course was the most fundamentally impactful in terms of my understanding of how to facilitate, navigate, and maintain strong relationships and connections both personally and professionally. As this aligns directly with my impact statement, this course was greatly beneficial to guiding me towards my goals
                 </h3>

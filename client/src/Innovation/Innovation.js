@@ -21,7 +21,7 @@ class Services extends Component {
                 </div>
                 <hr width="1" size="125" color='#fff' style={{borderLeft: 'dashed 2pt black', marginTop:'20pt' }}/>
                 <div className='marketing'>
-                    <img src={Education} alt='' className='secondPics'/>
+                    <img src={Education} alt='' className='secondPics' onClick={() => this.props.history.push('/education')}/>
                     <div className='marketingTitle'>
                         <h1>Education & Courses</h1>
                         <p>Completed educational opportunities and courses</p>
